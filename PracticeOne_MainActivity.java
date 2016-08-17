@@ -39,13 +39,22 @@ public class MainActivity extends AppCompatActivity {
                 // Perform action on click
 
                 //swap text colors around
-                
+                paragrphOneTextView.setTextColor(ContextCompat.getColor(getApplicationContext(), R.color.paragraph_3_color));
+                paragrphTwoTextView.setTextColor(ContextCompat.getColor(getApplicationContext(), R.color.paragraph_5_color));
+                paragrphThrTextView.setTextColor(ContextCompat.getColor(getApplicationContext(), R.color.paragraph_1_color));
+                paragrphForTextView.setTextColor(ContextCompat.getColor(getApplicationContext(), R.color.paragraph_2_color));
+                paragrphFivTextView.setTextColor(ContextCompat.getColor(getApplicationContext(), R.color.paragraph_4_color));
+
+
+
+                //Working depreciated functions
+                /*
                 paragrphOneTextView.setTextColor(getResources().getColor(R.color.paragraph_3_color));
                 paragrphTwoTextView.setTextColor(getResources().getColor(R.color.paragraph_5_color));
                 paragrphThrTextView.setTextColor(getResources().getColor(R.color.paragraph_1_color));
                 paragrphForTextView.setTextColor(getResources().getColor(R.color.paragraph_2_color));
                 paragrphFivTextView.setTextColor(getResources().getColor(R.color.paragraph_4_color));
-                
+                */
             }
         });
 
@@ -53,13 +62,20 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v){
 
                 //return text colors to original
-                
+                paragrphOneTextView.setTextColor(ContextCompat.getColor(getApplicationContext(), R.color.paragraph_1_color));
+                paragrphTwoTextView.setTextColor(ContextCompat.getColor(getApplicationContext(), R.color.paragraph_2_color));
+                paragrphThrTextView.setTextColor(ContextCompat.getColor(getApplicationContext(), R.color.paragraph_3_color));
+                paragrphForTextView.setTextColor(ContextCompat.getColor(getApplicationContext(), R.color.paragraph_4_color));
+                paragrphFivTextView.setTextColor(ContextCompat.getColor(getApplicationContext(), R.color.paragraph_5_color));
+
+                //Working depreciated functions
+                /*
                 paragrphOneTextView.setTextColor(getResources().getColor(R.color.paragraph_1_color));
                 paragrphTwoTextView.setTextColor(getResources().getColor(R.color.paragraph_2_color));
                 paragrphThrTextView.setTextColor(getResources().getColor(R.color.paragraph_3_color));
                 paragrphForTextView.setTextColor(getResources().getColor(R.color.paragraph_4_color));
                 paragrphFivTextView.setTextColor(getResources().getColor(R.color.paragraph_5_color));
-                
+                */
             }
         });
 
